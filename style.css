@@ -1,0 +1,128 @@
+/* Custom styles for Courseware Management System */
+
+/* General styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Navbar customization */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Card customization */
+.card {
+    border: none;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+/* Button customization */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Hero section */
+.hero-section {
+    border-radius: 0.35rem;
+    margin-bottom: 2rem;
+}
+
+/* Table customization */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+/* Sidebar navigation */
+.nav.flex-column .nav-link {
+    color: #4a4a4a;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.nav.flex-column .nav-link:hover {
+    background-color: #f0f0f0;
+}
+
+.nav.flex-column .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Progress bars */
+.progress {
+    height: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .table-responsive {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Custom utility classes */
+.rounded-circle {
+    object-fit: cover;
+}
+
+/* Icon sizes */
+.fa-3x {
+    font-size: 2.5em;
+}
+
+/* Alert customization */
+.alert {
+    border-radius: 0.35rem;
+}
+
+/* Form control customization */
+.form-control, .form-select {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Badge customization */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
+
+/* Accordion customization */
+.accordion-button:not(.collapsed) {
+    background-color: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(13, 110, 253, 0.25);
+}
